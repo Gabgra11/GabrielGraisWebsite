@@ -1,3 +1,6 @@
+#TODO: Scrollspy entire website
+#TODO: Add article styling (horizontal bars, padding, ...)
+
 from flask import Flask, redirect, url_for, render_template, request
 
 app = Flask(__name__)
