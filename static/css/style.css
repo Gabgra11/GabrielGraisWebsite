@@ -1,0 +1,14 @@
+body {
+    background-color: #3f8a8a;
+    color: #e0e0e0;
+}
+
+nav {
+    background-color: #3f8a8a;
+}
+
+article {
+    padding: 5px;
+    border-top: solid;
+    border-color: #a0e0e0
+}
