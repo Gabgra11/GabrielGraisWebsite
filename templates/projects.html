@@ -2,4 +2,38 @@
 {% set active_page = 'projects' %}
 
 {% block content %}
-{% endblock %}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card mb-3">
+                <img class="card-img-top" src="static/img/vote2grow.png" alt="Vote2Grow">
+                <div class="card-body">
+                    <h5 class="card-title">Vote2Grow</h5>
+                    <p class="card-text">Democratic Plant Watering System. Created a backend using Python with Flask and SQLite and a frontend using Jinja and Bootstrap. Live data and automatic watering are handled with a Raspberry Pi.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col">
+            <div class="card mb-3">
+                <img class="card-img-top" src="static/img/planahead.png" alt="PlanAhead">
+                <div class="card-body">
+                    <h5 class="card-title">PlanAhead</h5>
+                    <p class="card-text">Simple note taking web-app with automatic date and tag parsing. Created a backend using Python with Flask and SQLite and a frontend using Jinja and Bootstrap.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card mb-3">
+                <img class="card-img-top" src="static/img/altgeld.png" alt="Altgeld">
+                <div class="card-body">
+                    <h5 class="card-title">Altgeld</h5>
+                    <p class="card-text">Puzzle-based horror game set in Altgeld Hall of the University of Illinois. Completed with a team using Unreal Engine 5. Blackboard Behavior Trees used for enemy AI.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% endblock %}

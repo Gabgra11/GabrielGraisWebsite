@@ -12,3 +12,9 @@ article {
     border-top: solid;
     border-color: #a0e0e0
 }
+
+.card {
+    background-color: #3f8a8a;
+    border-width: 3px;
+    border-color: #a0e0e0;
+}
