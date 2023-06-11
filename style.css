@@ -1,24 +1,33 @@
+:root {
+    --bg-color: #245858;
+    --light-color: #a0e0e0;
+  }
+
 body {
-    background-color: #3f8a8a;
-    color: #e0e0e0;
+    background-color: var(--bg-color);
+    color: white;
 }
 
 nav {
-    background-color: #3f8a8a;
+    background-color: var(--bg-color);
 }
 
 article {
     padding: 5px;
     border-top: solid;
-    border-color: #a0e0e0
+    border-color: var(--light-color);
 }
 
 .card {
-    background-color: #3f8a8a;
+    background-color: var(--bg-color);
     border-width: 3px;
-    border-color: #a0e0e0;
+    border-color: var(--light-color);
 }
 
 .section-title {
     padding: 30px;
+}
+
+.fixed-top {
+    background-color: var(--bg-color)
 }
